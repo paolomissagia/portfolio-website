@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { Link } from "react-scroll";
+// eslint-disable-next-line no-unused-vars
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Logo from "../assets/Logo.png";
 
 function Navbar() {
@@ -12,7 +14,7 @@ function Navbar() {
       <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
         <Link
           activeClass="active"
-          className="mr-5 hover:text-white"
+          className="mr-5 hover:text-white hover:underline"
           onClick={() => {
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
@@ -24,7 +26,7 @@ function Navbar() {
         </Link>
         <Link
           activeClass="active"
-          className="mr-5 hover:text-white"
+          className="mr-5 hover:text-white hover:underline"
           to="skills"
           smooth
           spy
@@ -34,7 +36,7 @@ function Navbar() {
         </Link>
         <Link
           activeClass="active"
-          className="mr-5 hover:text-white"
+          className="mr-5 hover:text-white hover:underline"
           to="projects"
           smooth
           spy
@@ -44,7 +46,7 @@ function Navbar() {
         </Link>
         <Link
           activeClass="active"
-          className="mr-5 hover:text-white"
+          className="mr-5 hover:text-white hover:underline"
           to="contact"
           smooth
           spy
@@ -53,6 +55,17 @@ function Navbar() {
           Contact
         </Link>
       </nav>
+      <div className="flex flex-row">
+        <a href="https://github.com/paolomissagia" className="hover:text-white">
+          <AiFillGithub className="w-8 h-8 mr-2" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/paolomissagia/"
+          className="hover:text-white"
+        >
+          <AiFillLinkedin className="w-8 h-8" />
+        </a>
+      </div>
     </div>
   );
 }

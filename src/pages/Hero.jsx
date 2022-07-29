@@ -14,10 +14,8 @@ function Hero() {
           Hello, I&apos;m Paolo.
         </h1>
         <p className="mb-8 leading-relaxed">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-          deleniti, consectetur debitis repudiandae minus labore praesentium,
-          at, consequuntur voluptate nam sit. Blanditiis nam corporis esse iste
-          neque, a nobis aliquid.
+          A passionate computing graduate student that loves to <br />
+          build creative software solutions for real-world problems.
         </p>
         <div className="flex justify-center">
           <Link

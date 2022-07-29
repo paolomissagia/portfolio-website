@@ -10,50 +10,34 @@ function Projects() {
           My Projects
         </h1>
         <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-          repellendus iste tempore quod nesciunt error qui, rem reprehenderit
-          autem culpa accusamus aperiam, porro nulla doloremque!
+          Currently, in the process of reshaping my portfolio to reflect my
+          areas of interest, a few <br /> projects are ongoing that will be
+          posted soon!
         </p>
       </div>
       <div className="flex flex-wrap -m-4">
         <Project
           Title="CULTURAL ROADMAP"
-          Description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum qui praesentium suscipit!"
+          Description="A full-stack application built with MERN that generates guide to Literature, Cinema & Music"
           Live="https://cultural-roadmap.herokuapp.com/"
           Code="https://github.com/paolomissagia/cultural-roadmap"
         />
         <Project
           Title="PORTFOLIO"
-          Description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum qui praesentium suscipit!"
+          Description="A responsive portfolio website exclusive built on the front-end using the React.JS library"
           Live="https://paolomissagia.com/"
           Code="https://github.com/paolomissagia/portfolio-website"
         />
-        <div className="sm:w-1/2 p-4">
-          <div className="flex relative">
-            <div className="px-8 py-14 relative z-10 w-full border-4 border-gray-800 bg-gray-900 text-center">
-              <h1 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                CONSTRUCTION
-              </h1>
-              <p className="leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                voluptatem rerum corporis?
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="sm:w-1/2 p-4">
-          <div className="flex relative">
-            <div className="px-8 py-14 relative z-10 w-full border-4 border-gray-800 bg-gray-900 text-center">
-              <h1 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                CONSTRUCTION
-              </h1>
-              <p className="leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                voluptatem rerum corporis?
-              </p>
-            </div>
-          </div>
-        </div>
+        <Project
+          Title="COMING SOON"
+          Description="An interactive opera guide for enthusiasts of all levels, the project is currently under development with an estimated release in early October."
+          Empty
+        />
+        <Project
+          Title="CONSTRUCTION"
+          Description="The following project will be determined and announced after the release of the opera application."
+          Empty
+        />
       </div>
     </div>
   );

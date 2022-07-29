@@ -14,9 +14,9 @@ function Skills() {
           Developer Skills
         </h1>
         <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus non
-          neque sed harum veniam quae omnis quaerat, reprehenderit temporibus
-          consequatur.
+          Since beginning my journey, I have played around with different
+          technologies but have recently focused more on the web development
+          world.
         </p>
       </div>
       <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

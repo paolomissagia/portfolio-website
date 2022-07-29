@@ -2,6 +2,8 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { FaPaperPlane } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
 
 function Contact() {
   const form = useRef();
@@ -50,16 +52,12 @@ function Contact() {
         <h2 className="text-white text-lg mb-1 font-medium title-font">
           Get in Touch
         </h2>
-        <p className="leading-relaxed mb-5">
-          Alternatively, you can also reach me on{" "}
-          <a
-            className="underline hover:text-green-500"
-            href="https://www.linkedin.com/in/paolomissagia/"
-          >
-            Linkedin
-          </a>
-          .
-        </p>
+        <a
+          href="mailto:hello@paolomissagia.com"
+          className="inline-flex leading-relaxed items-center mt-2 mb-5 hover:text-green-500"
+        >
+          <FiMail className="mr-2" /> hello@paolomissagia.com
+        </a>
         <form ref={form} onSubmit={sendEmail}>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
@@ -99,9 +97,10 @@ function Contact() {
           <button
             type="submit"
             value="Send"
-            className="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+            className="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg inline-flex items-center"
           >
             Submit
+            <FaPaperPlane className="ml-2" />
           </button>
         </form>
       </div>
