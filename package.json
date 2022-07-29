@@ -1,7 +1,7 @@
 {
   "name": "portfolio-website",
-  "homepage": "https://paolomissagia.com",
-  "version": "0.1.0",
+  "homepage": "http://paolomissagia.com",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
