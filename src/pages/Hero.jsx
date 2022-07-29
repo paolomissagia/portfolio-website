@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div
       id="hero"
-      className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center h-[80vh]"
+      className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center min-h-[80vh]"
     >
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <h1 className="sm:text-4xl text-3xl mb-4 font-medium text-white">

@@ -15,13 +15,17 @@ function Project({ Title, Description, Live, Code, Empty }) {
           <div className="mt-4">
             <a
               href={Live}
+              target="_blank"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              rel="noreferrer"
             >
               Live
             </a>
             <a
               href={Code}
+              target="_blank"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              rel="noreferrer"
             >
               Code
             </a>

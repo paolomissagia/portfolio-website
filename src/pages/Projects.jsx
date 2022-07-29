@@ -11,8 +11,8 @@ function Projects() {
         </h1>
         <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
           Currently, in the process of reshaping my portfolio to reflect my
-          areas of interest, a few <br /> projects are ongoing that will be
-          posted soon!
+          areas of interest, a few projects are ongoing that will be posted
+          soon!
         </p>
       </div>
       <div className="flex flex-wrap -m-4">
