@@ -61,12 +61,19 @@ function Navbar() {
         </Link>
       </nav>
       <div className="hidden md:flex flex-row">
-        <a href="https://github.com/paolomissagia" className="hover:text-white">
+        <a
+          href="https://github.com/paolomissagia"
+          target="_blank"
+          className="hover:text-white"
+          rel="noreferrer"
+        >
           <AiFillGithub className="w-8 h-8 mr-2" />
         </a>
         <a
           href="https://www.linkedin.com/in/paolomissagia/"
+          target="_blank"
           className="hover:text-white"
+          rel="noreferrer"
         >
           <AiFillLinkedin className="w-8 h-8" />
         </a>
