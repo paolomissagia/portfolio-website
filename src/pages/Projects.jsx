@@ -16,10 +16,44 @@ function Projects() {
         </p>
       </div>
       <div className="flex flex-wrap -m-4">
-        <Project />
-        <Project />
-        <Project />
-        <Project />
+        <Project
+          Title="CULTURAL ROADMAP"
+          Description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum qui praesentium suscipit!"
+          Live="https://cultural-roadmap.herokuapp.com/"
+          Code="https://github.com/paolomissagia/cultural-roadmap"
+        />
+        <Project
+          Title="PORTFOLIO"
+          Description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum qui praesentium suscipit!"
+          Live="https://paolomissagia.com/"
+          Code="https://github.com/paolomissagia/portfolio-website"
+        />
+        <div className="sm:w-1/2 p-4">
+          <div className="flex relative">
+            <div className="px-8 py-14 relative z-10 w-full border-4 border-gray-800 bg-gray-900 text-center">
+              <h1 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                CONSTRUCTION
+              </h1>
+              <p className="leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+                voluptatem rerum corporis?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="sm:w-1/2 p-4">
+          <div className="flex relative">
+            <div className="px-8 py-14 relative z-10 w-full border-4 border-gray-800 bg-gray-900 text-center">
+              <h1 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                CONSTRUCTION
+              </h1>
+              <p className="leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+                voluptatem rerum corporis?
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
