@@ -14,8 +14,8 @@ function Hero() {
           Hello, I&apos;m Paolo.
         </h1>
         <p className="mb-8 leading-relaxed">
-          A passionate computing graduate student that loves to <br />
-          build creative software solutions for real-world problems.
+          A passionate computing graduate student that loves to build creative
+          software solutions for real-world problems.
         </p>
         <div className="flex justify-center">
           <Link
